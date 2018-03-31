@@ -18,7 +18,7 @@ addEventListener('resize', () => {
   canvas.width = canvasWidth
   canvas.height = canvasHeight
 
-  scene.updateCanvasWidth(canvasWidth, canvasHeight)
+  scene.updateCanvas(canvasWidth, canvasHeight)
 })
 
 // Start app.
